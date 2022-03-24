@@ -1,0 +1,76 @@
+@import 'vars';
+
+
+    .blog__main-title{
+        text-align: center;
+        padding:28px 0 29px;
+        margin:0 0 60px 0;
+        position: relative;
+        font-family: &secondary-font;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: capitalize;
+        color: #333333;
+        &::before{
+            position: absolute;
+            top:0;
+            left:50%;
+            transform: translateX(-50%);
+            width:115px;
+            height:3px;
+            background-color: $accent;
+            content:"";
+        }
+        &::after{
+            position: absolute;
+            bottom:0;
+            left:50%;
+            transform: translateX(-50%);
+            width:115px;
+            height:3px;
+            background-color: $accent;
+            content:"";
+        }
+    }
+
+.blog{
+ &__title{
+    padding:15px 15px 0 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: capitalize;
+    
+    color: $accent;
+ }
+ &__subtitle{
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: $dark;
+   }
+   &__info{
+    color: #9A9A9A;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+   }
+   &__btn{
+       border:solid 1px black;
+       text-decoration: none;
+       font-weight: bold;
+       font-size: 16px;
+       color: #333333;
+       padding:4px 21px;
+   }
+}

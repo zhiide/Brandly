@@ -1,0 +1,25 @@
+@import 'vars';
+
+.header{
+    &__logo{
+        padding:16px 0;
+        display:inline-block;
+        max-width:255px;
+    }
+    &__logo-img{
+        max-width:100%;
+    }
+    &__nav-link{
+        color: $accent;
+    }
+    &__nav-toggler{
+        border:solid 1px $accent;
+        padding-top:8px;
+        &:focus{
+            box-shadow: none;
+        }
+        path{
+            fill:$accent;
+        }
+    }
+}

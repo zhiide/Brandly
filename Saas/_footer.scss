@@ -1,0 +1,21 @@
+@import 'vars';
+
+.footer{
+    background-image:url('../images/footer.jpg');
+    min-height:157px;
+    margin-top:86px;
+    &__copyright{
+        position: absolute;
+        width: 208px;
+         height: 27px;
+         left: 177px;
+         top: 2249px;
+         color: #FFFFFF;
+        font-family: Open Sans;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: capitalize;
+}
+}
